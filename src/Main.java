@@ -65,14 +65,15 @@ public class Main {
 //        });
 
     }
-    private static List<Vehicle> getVehicle(){
+
+    private static List<Vehicle> getVehicle() {
         return List.of(
-                new Vehicle("BMW" ,  "2003", 20, VehicleType.CAR),
-                new Vehicle("TOYOTA" , "2009",13, VehicleType.VAN),
-                new Vehicle("BMW" ,  "2009", 15, VehicleType.CAR),
-                new Vehicle("AUDI" , "2014",7,VehicleType.VAN),
-                new Vehicle("MCLAREN" ,"2006",14, VehicleType.CAR),
-                new Vehicle("WAX WAGON" , "2005",17, VehicleType.CAR)
+                new Vehicle("BMW", "2003", 20, VehicleType.CAR),
+                new Vehicle("TOYOTA", "2009", 13, VehicleType.VAN),
+                new Vehicle("BMW", "2009", 15, VehicleType.CAR),
+                new Vehicle("AUDI", "2014", 7, VehicleType.VAN),
+                new Vehicle("MCLAREN", "2006", 14, VehicleType.CAR),
+                new Vehicle("WAX WAGON", "2005", 17, VehicleType.CAR)
         );
     }
 }
